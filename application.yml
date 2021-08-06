@@ -2,13 +2,13 @@ spring:
     profiles:
         active:
         - dev
- ---
- spring:
-    profiles: dev  #開發環境
+---
+spring:
+    profiles: dev
     application:
         name: microservicecloud-config-demo-dev
- ---
- spring:
-    profiles: test #測試環境
+---
+spring:
+    profiles: test
     application:
         name: microservicecloud-config-demo-test
